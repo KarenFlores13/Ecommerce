@@ -1,0 +1,284 @@
+
+/* globales */
+p {
+    font-size: 1.7rem;
+    
+}
+h1 {
+    text-align: center;
+    margin: 40px 0px;
+    color: #3C3C49;
+    font-family: 'staatliches', cursive;
+}
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.navbar-toggler {
+    background-color: #F4F4F4;
+    padding: 2px 5px;
+    
+}
+
+.nav-link {
+    font-size: 19px;
+    text-align: center;
+}
+
+.navbar-light
+.navbar-brand,
+.navbar-light
+.navbar-nav
+.nav-link.active,
+.navbar-light
+.navbar-nav
+.nav-link
+ {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: tan;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover
+
+{
+    color: tan;
+}
+
+
+.carusel-imagen {
+    text-align: center;
+}
+
+.producto-imagen {
+    width: 40%;
+    margin: 0 62px;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* PRODUCTOS */
+
+.producto a {
+    text-decoration: none;
+}
+
+.producto{
+    padding: 1rem;
+    border: 2px solid #8E8DBE;
+    border-radius: 10px;
+    
+}
+.producto_nombre {
+    font-size: 1.5rem;
+    color: #822659;
+}
+.producto_precio{
+    font-size: 1.5rem;
+    color: #b34180;
+}
+
+.producto_nombre,
+.producto_precio {
+    font-family: 'staatliches',cursive;
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.producto:hover{
+    border-color:#822659;
+}
+
+.producto:hover p{
+    font-size: 27px;
+}
+
+/* busqueda */
+
+.boton_agregar {
+    margin-left: 650px;
+    padding: 10px;        
+    border-radius: 5px;
+    border: 2px solid #8E8DBE;
+    color: #8E8DBE;
+    font-family: 'staatliches', cursive;
+    font-size: 20px;
+}
+.boton_agregar:focus{
+    outline-color: #822659;
+}
+.busqueda {
+    margin: 25px 0;
+}
+
+.busqueda_campo{
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+.busqueda_campo:focus,
+.boton_busqueda:focus {
+    outline: none;
+}
+
+.boton_busqueda{
+    border: none;
+}
+
+/* footer */
+ .footer {
+    background-color: black;
+    padding: 7px;
+    margin-top: 2rem;
+ }
+
+ .footer_texto{
+    color: white;
+    text-align: center;
+    font-family: 'staatliches', cursive;
+    margin: 22px;
+ }
+
+.login{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+h2 {
+    text-align: center;
+    font-family: 'staatliches', cursive;
+    font-size: 27px;
+}
+.email, .password {
+    margin: 0 511px;
+}
+
+.sesion {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 21px;
+    width: 20%;
+    border-radius: 30px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px){
+    .boton_agregar {
+        margin-left: 470px;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .carusel-imagen1{
+        width: 60%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .producto-imagen {
+        margin: 0px 48px;
+    }
+
+    .boton_agregar {
+        margin-left: 280px;
+    }
+
+    .login-page{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .boton_agregar {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 15px;
+        padding: 5px 5px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .producto_nombre,
+    .producto_precio,
+    .footer_texto {
+        font-size: 20px;
+    }
+
+    .producto-imagen {
+        margin: 0px 30px;
+    }
+
+    .boton_agregar {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 15px;
+        padding: 5px 5px;
+    }
+
+    .login-page {
+        width: 85%;
+    }
+
+    .contacto_bg {
+        height: 12rem;
+    }
+    .campo {
+        flex-direction: column;
+    }
+    .campo_label {
+        display: contents;
+    }
+    .campo_field--textarea {
+        width: 187px;
+    }
+    
+}

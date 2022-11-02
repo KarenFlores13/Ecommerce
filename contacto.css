@@ -1,0 +1,61 @@
+
+h3 {
+    font-size: 2rem;
+    font-family: 'staatliches', cursive;
+    margin: 30px 68px;
+}
+
+/* contacto */
+.contacto_bg {
+    background-image: url(../banner-snack-Bu-Bu.jpg);
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.formulario {
+    background-color: #F4F4F4;
+    margin: -5rem auto 0 auto;
+    width: 86%;
+    padding: 3rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.campo_label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+
+}
+
+.campo_field {
+    flex: 1;
+    border: 1px solid #F4F4F4;
+}
+
+.campo_field--textarea {
+    height: 16rem;
+}
+
+.boton {
+    display: block;
+    font-family: 'staatliches', cursive;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.boton--primario {
+    background-color: black;
+}
