@@ -7,7 +7,7 @@ h3 {
 
 /* contacto */
 .contacto_bg {
-    background-image: url(../banner-snack-Bu-Bu.jpg);
+    background-image: url(./banner-snack-Bu-Bu.jpg);
     height: 20rem;
     background-size: cover;
     background-repeat: no-repeat;

@@ -231,6 +231,13 @@ h2 {
         margin-top: 15px;
         padding: 5px 5px;
     }
+    .campo {
+        flex-direction: column;
+    }
+    .campo_label {
+        display: contents;
+    }
+    
 }
 
 
