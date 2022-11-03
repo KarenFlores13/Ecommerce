@@ -215,6 +215,25 @@ h2 {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    } 
+
+    h1 {
+        font-size: 30px;
+    }
+    .boton_agregar {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 15px;
+        padding: 5px 5px;
+    }
+}
+
+
 @media screen and (max-width: 375px) {
     .boton_agregar {
         font-size: 20px;
