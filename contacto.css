@@ -6,6 +6,28 @@ h3 {
 }
 
 /* contacto */
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 1rem;
+    color: #F4F4F4;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.correcto {
+    background-color: rgb(74, 185,0);
+    text-align: center;
+    padding: 1rem;
+    color: #F4F4F4;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
 .contacto_bg {
     background-image: url(./banner-snack-Bu-Bu.jpg);
     height: 20rem;
